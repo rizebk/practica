@@ -1,0 +1,33 @@
+#result {
+    text-align: center;
+    color: red;
+    font-size: 14px;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #E09B23;
+}
+
+.form {
+    background-color: white;
+    border-radius: 15px;
+    border: none;
+    width: 100%;
+    max-width: 330px;
+    padding: 15px;
+    margin: auto;
+    text-align: center;
+}
+
+.form input.form-control {
+    margin: 10px 0px;
+}

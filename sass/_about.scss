@@ -1,0 +1,159 @@
+/*---------------------
+  Despre
+-----------------------*/
+.about {
+    padding-bottom: 70px;
+} 
+
+.about__content {
+    margin-bottom: 70px;
+}
+
+.about__img {
+    position: relative;
+    border-radius: 2px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.3);
+
+    img {
+        min-width: 100%;
+    }
+
+    .play-btn {
+        display: inline-block;
+        position: absolute;
+        right: -50px;
+        top: 50%;
+        transform: translateY(-50px);
+
+        img {
+            min-width: auto;
+        }
+    }
+}
+
+.about__text {
+    padding-top: 35px;
+
+    h2 {
+        color: $heading-color;
+        font-weight: 700;
+        margin-bottom: 18px;
+    }
+
+    h4 {
+        color: $heading-color;
+        margin-bottom: 70px;
+    }
+
+    p {
+
+        &.first_para {
+            margin-bottom: 30px;
+        }
+
+        &.last_para {
+            margin-bottom: 45px;
+        }
+    }
+}
+
+.about__item {
+    margin-bottom: 30px;
+
+    h4 {
+        color: $heading-color;
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+    
+    p {
+        color: #707070;
+    }
+}
+
+/*---------------------
+    Istorie
+-----------------------*/
+.history {
+    
+    .section-title {
+
+        h2 {
+            color: $white-color;
+        }
+
+        p {
+            color: $white-color;
+        }
+    }
+}
+
+.history__img {
+    
+    img {
+        border-radius: 2px;
+        min-width: 100%;
+    }
+}
+
+.history__text {
+    position: relative;
+    height: 460px;
+    padding-left: 44px;
+    padding-right: 15px;
+    overflow-y: auto;
+    
+    &:before {
+        position: absolute;
+        left: 9px;
+        top: 0;
+        height: 100%;
+        width: 2px;
+        background: rgba(255, 255, 255, 0.1);
+        content: '';
+    }
+}
+
+.history__item {
+    position: relative;
+    margin-bottom: 55px;
+
+    .history__indicator {
+        position: absolute;
+        left: -44px;
+        top: 2px;
+        height: 20px;
+        width: 20px;
+        background: rgba(255, 255, 255, 0.1);
+        content: '';
+        border-radius: 50%;
+
+        &:after {
+            position: absolute;
+            left: 5px;
+            top: 5px;
+            height: 10px;
+            width: 10px;
+            background: $primary-color;
+            content: '';
+            border-radius: 50%;
+        }
+    }
+
+    span {
+        font-size: 14px;
+        color: $primary-color;
+    }
+
+    h4 {
+        color: $white-color;
+        font-weight: 700;
+        margin-top: 4px;
+        margin-bottom: 10px;
+    }
+
+    p {
+        color: $white-color;
+        margin-bottom: 0;
+    }
+}
